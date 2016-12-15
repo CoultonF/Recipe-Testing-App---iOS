@@ -18,7 +18,14 @@ class ViewController: UITableViewController {
         
         tableView.rowHeight = 70
         tableView.backgroundView = UIImageView(image:UIImage(named: "breads"))
+		
     }
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		
+		navigationController?.navigationBar.alpha = 0.5
+		
+	}
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -39,6 +46,7 @@ class ViewController: UITableViewController {
             cell.backgroundColor = UIColor.white.withAlphaComponent(0.2)
             cell.textLabel?.backgroundColor = UIColor.white.withAlphaComponent(0.0)
         }
+		cell.textLabel?.textColor = UIColor.white
         return cell
     }
 }

@@ -15,6 +15,8 @@
 		78DE8A341E01202900C51979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DE8A321E01202900C51979 /* LaunchScreen.storyboard */; };
 		78DE8A3F1E01202900C51979 /* RecipeTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE8A3E1E01202900C51979 /* RecipeTestingTests.swift */; };
 		78DE8A4A1E01202A00C51979 /* RecipeTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE8A491E01202A00C51979 /* RecipeTestingUITests.swift */; };
+		78F7C8041E035DC500ABB336 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F7C8031E035DC500ABB336 /* AddViewController.swift */; };
+		78F7C8061E035DD200ABB336 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F7C8051E035DD200ABB336 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		78DE8A451E01202900C51979 /* RecipeTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DE8A491E01202A00C51979 /* RecipeTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTestingUITests.swift; sourceTree = "<group>"; };
 		78DE8A4B1E01202A00C51979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78F7C8031E035DC500ABB336 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddViewController.swift; path = ../AddViewController.swift; sourceTree = "<group>"; };
+		78F7C8051E035DD200ABB336 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				78DE8A261E01202900C51979 /* AppDelegate.swift */,
 				78DE8A281E01202900C51979 /* ViewController.swift */,
+				78F7C8031E035DC500ABB336 /* AddViewController.swift */,
+				78F7C8051E035DD200ABB336 /* DetailViewController.swift */,
 				78DE8A2A1E01202900C51979 /* Main.storyboard */,
 				78DE8A301E01202900C51979 /* Assets.xcassets */,
 				78DE8A321E01202900C51979 /* LaunchScreen.storyboard */,
@@ -265,6 +271,8 @@
 			files = (
 				78DE8A291E01202900C51979 /* ViewController.swift in Sources */,
 				78DE8A2F1E01202900C51979 /* RecipeTesting.xcdatamodeld in Sources */,
+				78F7C8061E035DD200ABB336 /* DetailViewController.swift in Sources */,
+				78F7C8041E035DC500ABB336 /* AddViewController.swift in Sources */,
 				78DE8A271E01202900C51979 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
